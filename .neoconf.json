@@ -1,0 +1,13 @@
+{
+  "neodev": {
+    "library": {
+      "plugins": []
+    }
+  },
+  "lspconfig": {
+    "sumneko_lua": {
+      "Lua.runtime.version": "LuaJIT",
+      "Lua.workspace.checkThirdParty": false
+    }
+  }
+}
