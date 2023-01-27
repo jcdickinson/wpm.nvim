@@ -8,7 +8,7 @@ Feel free to create an issue/PR if you want to see anything else implemented.
 
 ## Screenshots
 
-![WPM and History Graph](./docs/wpm_and_history_graph.png)
+![WPM and History Graph](https://user-images.githubusercontent.com/522465/215136259-168d19a6-6a29-41f0-8f81-175d4a17c40a.png)
 
 ## Installation
 
