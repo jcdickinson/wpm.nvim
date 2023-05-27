@@ -48,7 +48,11 @@ function M.setup(options)
 	end
 
 	local augroup = vim.api.nvim_create_augroup("plugin-wpm", { clear = true })
-  vim.on_key(character_press)
+  vim.on_key(function()
+    if vim.fn.mode(1) == "i" then
+      character_press()
+    end
+  end)
 
 	vim.api.nvim_create_autocmd("InsertEnter", {
 		callback = function()
